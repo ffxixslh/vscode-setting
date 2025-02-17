@@ -1,0 +1,170 @@
+{
+  "codeium.enableSearch": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "prisma": true,
+    "markdown": true,
+    "properties": true,
+    "ignore": true
+  },
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports": "always"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Consolas'",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.lineHeight": 1.6,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "explorer.compactFolders": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "git.autofetch": true,
+  "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+  "gitlens.views.repositories.showStashes": true,
+  "hediet.vscode-drawio.codeLinkActivated": true,
+  "hediet.vscode-drawio.theme": "automatic",
+  "prettier.requireConfig": true,
+  "prettier.endOfLine": "auto",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "settingsSync.ignoredExtensions": [
+    "codeium.codeium"
+  ],
+  "terminal.external.windowsExec": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.15.2712.0_x64__8wekyb3d8bbwe\\wt.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.useWslProfiles": false,
+  "typeChallenges.workspaceFolder": "D:\\FrontEnd\\ProjectTypeScript\\type-challenges-saved",
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vscode-neovim.compositeKeys": {
+    "jf": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "vscode-neovim.useWSL": true,
+  "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim/bin/nvim",
+  "vscode-neovim.wslDistribution": "Ubuntu-22.04",
+  "vscode-neovim.highlightGroups.highlights": {
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground"
+    },
+    "CurSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground"
+    },
+    "Substitute": {
+      "backgroundColor": "theme.editor.foreground",
+      "color": "theme.editor.background"
+    }
+  },
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
+  "window.enableMenuBarMnemonics": false,
+  "window.menuBarVisibility": "compact",
+  "window.openFilesInNewWindow": "default",
+  "workbench.colorTheme": "Jetbrains Fleet",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredLightColorTheme": "Jetbrains Fleet",
+  "workbench.preferredDarkColorTheme": "Jetbrains Fleet",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.startupEditor": "none",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+}

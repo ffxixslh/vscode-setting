@@ -1,0 +1,112 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": "space oem_2",
+    "command": "workbench.action.findInFiles",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "space space",
+    "command": "workbench.action.quickOpen",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "viewContainer.workbench.view.explorer.enabled && (editorTextFocus || !inputFocus) && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "space c a",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && (editorTextFocus || !inputFocus) && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "space g g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded' && (editorTextFocus || !inputFocus) && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "g c",
+    "command": "editor.action.commentLine",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'visual'"
+  },
+  // {
+  //   "key": "g c c",
+  //   "command": "editor.action.commentLine",
+  //   "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  // },
+  // {
+  //   "key": "g d",
+  //   "command": "editor.action.revealDefinition",
+  //   "when": "editorHasDefinitionProvider && (editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  // },
+  // {
+  //   "key": "g r",
+  //   "command": "editor.action.goToReferences",
+  //   "when": "editorHasReferenceProvider && !inReferenceSearchEditor && !isInEmbeddedEditor && (editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  // },
+  {
+    "key": "z c",
+    "command": "editor.fold",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "z o",
+    "command": "editor.unfold",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "z f",
+    "command": "editor.foldAll",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "z a",
+    "command": "editor.unfoldAll",
+    "when": "(editorTextFocus || !inputFocus) && neovim.init && neovim.mode == 'normal'"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction"
+  },
+  {
+    "key": "ctrl-h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl-l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl-k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl-j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "inlineEditIsVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+oem_2",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+oem_2",
+    "command": "-vscode-neovim.send",
+    "when": "(editorTextFocus || !inputFocus) && neovim.ctrlKeysNormal./ && neovim.init && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+oem_2",
+    "command": "-vscode-neovim.send",
+    "when": "(editorTextFocus || !inputFocus) && neovim.ctrlKeysInsert./ && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  }
+]
